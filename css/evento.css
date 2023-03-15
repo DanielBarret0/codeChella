@@ -1,0 +1,160 @@
+.evento {
+    width: 100%;
+}
+
+/* .evento__imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2em;
+} */
+
+.evento__div-imagem {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.evento__imagem {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.evento__botao_position {
+
+    font-family: var(--fonte-principal);
+    font-size: 1.25em;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.evento__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+    text-decoration: none;
+    color: var(--branco);
+    background: var(--roxo);
+    padding: 1em 2em;
+    border-radius: 20px;
+    box-shadow: var(--sombra);
+    transition: 1s all;
+}
+
+.evento__botao:hover {
+    transform: scale(1.1);
+    background: var(--roxo-hover);
+}
+
+.evento__imagem-tablet {
+    display: none;
+}
+
+ /* ============================= TABLET =========================== */
+
+@media screen and (min-width: 768px) {
+    .evento__imagem {
+        display: none;
+    }
+
+    .evento__div-imagem {
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+
+    .evento__imagem-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 2em;
+    }
+
+    .titulo-fonte-principal {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .texto-fonte-principal {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .evento__botao_position {
+        padding: 2em 0;
+    }
+
+}
+
+ /* ============================= DESKTOP =========================== */
+
+@media screen and (min-width: 1440px) {
+    .evento {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5em 5em 6em 5em;
+        width: auto;
+    }
+
+    .titulo-fonte-principal {
+        font-size: 2em;
+    }
+
+    .texto-fonte-principal {
+        font-size: 1.25em;
+    }
+}
+
+ /* ============================= DESKTOP + =========================== */
+
+@media screen and (min-width: 2560px) {
+    .evento {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10em 30em 6em 30em;
+        text-align: center;
+    }
+
+    .evento__div-imagem {
+        padding: 0;
+    }
+
+    .grid-deskto {
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+    }
+
+    .evento__imagem-tablet {
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+
+    .titulo-fonte-principal, .texto-fonte-principal {
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .evento__botao_position {
+        width: 400px;
+        margin: auto;
+    }
+
+    .texto-fonte-principal {
+        font-size: 1.25em;
+    }
+}

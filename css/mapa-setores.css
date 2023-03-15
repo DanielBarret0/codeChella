@@ -1,0 +1,227 @@
+.banner__setores {
+    background-image: url(../img/Banner-Mapa\ de\ setores-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.mapa_imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2em 0em 2em 0em;
+}
+
+.mapa__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.25em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.mapa__posicao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.mapa__item-posicao {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    gap: 1em;
+}
+
+.mapa__setores-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.mapa__descrisao {
+    font-family: var(--fonte-principal);
+    font-size: 1.25em;
+}
+
+.titulo-setores {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1em;
+    color: var(--branco);
+    padding: 2em 0 1em 0;
+}
+
+.setores-subtitulo {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1em;
+    color: var(--branco);
+    padding: 1em 0 1em 0;
+}
+
+.setores-texto {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1.25em;
+    color: var(--branco);
+    line-height: 1.5em;
+    padding: 1.25em;
+    text-align: center;
+}
+
+.mapa__imagem-tablet {
+    display: none;
+}
+
+ /* ============================= TABLET =========================== */
+
+@media screen and (min-width: 768px) {
+
+    .mapa__imagem-mobile {
+        display: none;
+    }
+
+    .mapa__imagem-tablet {
+        display: flex;
+    }
+
+    .banner__setores {
+        background: url(../img/Banner-setores-tablet.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .mapa__setores-imagem {
+        width: 500px;
+        height: 350px;
+    }
+
+    .mapa__titulo {
+        font-size: 1.5em;
+    }
+
+    .mapa__descrisao {
+        font-size: 1.3em;
+    }
+
+    .titulo-setores {
+        font-size: 2.5em;
+    }
+
+    .setores-texto {
+        font-size: 1.5em;
+        padding: 0 3em;
+        text-align: center;
+    }
+}
+
+ /* ============================= DESKTOP =========================== */
+
+@media screen and (min-width: 1440px) {
+    .mapa__imagem-mobile {
+        display: none;
+    }
+
+    .banner__setores {
+        background: url(../img/Banner-setores-desktop.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .mapa_imagem {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mapa-setores {
+        display: flex;
+        gap: 2em;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2em 0 2em 0;
+    }
+
+    .mapa__titulo {
+        text-align: left;
+    }
+
+    .mapa__setores-imagem {
+        width: 350px;
+        height: 250px;
+    } 
+
+    .bloco__espacamento-desktop {
+        display: flex;
+        padding: 0 4em 0 4em;
+        gap: 2em;
+    }
+
+    .setores-subtitulo {
+        padding: 0;
+        margin: 0;
+    }
+
+    .setores-texto {
+        padding: 1em 1.5em;
+    }
+
+}
+
+ /* ============================= DESKTOP + =========================== */
+
+@media screen and (min-width: 2560px) {
+
+    .banner__setores {
+        height: 500px;
+    }
+
+    .mapa-setores {
+        justify-content: center;
+        gap: 5em;
+    }
+
+    .titulo-setores {
+        padding: 3em 0 2em 0;
+    }
+
+    .mapa__setores-imagem {
+        width: 450px;
+        height: 350px;
+    }
+
+    .bloco-setores {
+        gap: 2em;
+    }
+
+    .setores__textos {
+        text-align: center;
+    }
+
+    .bloco__espacamento-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4em 20em 10em 20em;
+    }
+}

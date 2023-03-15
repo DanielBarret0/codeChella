@@ -1,0 +1,42 @@
+.banner {
+    height: 300px;
+    background-image: url(../img/Banner\ -\ Homepage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner__position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    height: 100%;
+}
+
+/* ============================= TABLET =========================== */
+@media screen and (min-width: 768px) {
+    .banner {
+        height: 400px;
+    }
+
+}
+
+/* ============================= DESKTOP =========================== */
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        height: 400px;
+    }
+
+}
+
+/* ============================= DESKTOP + =========================== */
+
+@media screen and (min-width: 2560px) {
+    .banner {
+        height: 500px;
+        background-image: url(../img/Banner-boreal-desktop.png);
+    }
+}

@@ -1,0 +1,185 @@
+.banner__box-formulario {
+    background-image: url(../img/banner-ingresso-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.formulario__titulo-item {
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.formulario__info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1em 2em;
+
+}
+
+.formulario__label {
+    font-family: var(--fonte-principal);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.formulario__input {
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1.2em;
+    color: var(--cinza);
+    margin-bottom: 1.5em;
+}
+
+.formulario__select {
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1.2em;
+    color: var(--cinza);
+    margin-bottom: 1.5em;
+}
+
+.formulario__select-item {
+    font-size: 1.2em;
+    height: 200px;
+}
+
+.formulario__espacamento-desktop {
+    display: inline;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.formulario__espacamento-desktop-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.formulario__botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    background: var(--roxo);
+    padding: 1em 2em;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px -5px rgba(0, 0, 0, 1);
+    ;
+    transition: 1s all;
+    margin: 2em auto;
+    width: 50%;
+    
+}
+
+.formulario__botao-input {
+    border: none;
+    background: none;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.formulario__botao:hover {
+    cursor: pointer;
+    background: var(--roxo-hover);
+    transform: scale(1.1);
+}
+
+.formulario__botao-input:hover {
+    cursor: pointer;
+}
+
+.formulario__botao-imagem {
+    width: 30px;
+    height: 30px;
+}
+
+/* ============================= TABLET ============================================ */
+
+@media screen and (min-width: 768px) {
+
+    .banner__box-formulario {
+        height: 400px;
+    }
+
+    .formulario__titulo-item {
+        padding: 2em;
+    }
+
+    .formulario__info {
+        padding: 1em 4em;
+    }
+
+    .formulario__botao {
+        margin: 2em auto;
+        width: 50%;
+    }
+
+}
+
+/* ============================= DESKTOP ============================================ */
+
+@media screen and (min-width: 1440px) {
+
+    .banner__box-formulario {
+        background: url(../img/banner-ingresso-desktop.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .formulario__espacamento-desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+
+    .formulario__espacamento-desktop-div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+
+    .formulario__titulo-item {
+        padding: 2em;
+        font-size: 3em;
+    }
+
+    .formulario__info {
+        padding: 1em 20em;
+    }
+
+    .formulario__botao {
+        margin: 2em auto;
+        width: 20%;
+    }
+
+}
+
+/* ============================= DESKTOP 2560 ============================================ */
+
+@media screen and (min-width: 2560px) {
+
+    .banner__box-formulario {
+        height: 500px;
+    }
+
+    .formulario__info {
+        padding: 3em 50em;
+    }
+}

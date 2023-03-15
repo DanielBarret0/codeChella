@@ -1,0 +1,150 @@
+
+.banner__box {
+    background-image: url(../img/Banner\ -\ A\ Experiência.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.experiencia__imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.titulo-experiencia {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1em;
+    color: var(--branco);
+    padding: 0.5em 1.5em;
+}
+
+.texto-experiencia {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1.25em;
+    color: var(--branco);
+    line-height: 1.5em;
+    padding: 1.25em;
+}
+
+.experiencia-imagem-tablet, .experiencia-tamanho-desktop {
+    display: none;
+}
+
+ /* ============================= TABLET =========================== */
+
+@media screen and (min-width: 768px) {
+    .banner__box {
+        height: 400px;
+    }
+
+    .experiencia__imagem {
+        display: none;
+    }
+
+    .experiencia-imagem-tablet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 2em;
+    }
+
+    .texto-experiencia {
+        padding: 0 4em;
+    }
+
+}
+
+ /* ============================= DESKTOP =========================== */
+
+@media screen and (min-width: 1440px) {
+
+    .box-hidden-desktop {
+        display: none;
+    }
+
+    .experiencia-tamanho-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 2em;
+        text-align: right;
+    }
+
+    .banner__box {
+        height: 400px;
+    }
+
+    .experiencia__imagem {
+        display: none;
+    }
+
+    .experiencia-tamanho-tablet {
+        display: flex;
+        padding: 4em 5em;
+    }
+
+    .titulo-experiencia {
+        font-size: 2.2em;
+        text-align: left;
+        margin: 0 0.5em;
+        padding: 1em;
+    }
+
+    .texto-experiencia {
+        font-size: 1.5em;
+        padding: 1em;
+    }
+
+    .titulo-experiencia-desktop {
+        text-align: right;
+        margin: 0 0.5em;
+    }
+}
+
+ /* ============================= DESKTOP + =========================== */
+
+@media screen and (min-width: 2560px) {
+
+    .banner__box {
+        height: 500px;
+    }
+
+    .bloco {
+        padding: 0 30em;
+    }
+    
+    .banner__titulo {
+        font-size: 6em;
+    }
+
+    .experiencia__imagem {
+        display: none;
+    }
+
+    .experiencia-tamanho-tablet {
+        display: flex;
+        padding: 4em 5em;
+    }
+
+    .titulo-experiencia {
+        font-size: 2.2em;
+        text-align: left;
+        
+    }
+
+    .titulo-experiencia-desktop {
+        text-align: right;
+        
+    }
+}
+

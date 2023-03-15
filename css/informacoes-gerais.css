@@ -1,0 +1,120 @@
+.banner__box-informacoes {
+    background-image: url(../img/Banner-info-gerais-mobiline.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.informacoes-gerais__titulo {
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 2em;
+}
+
+.box__perguntas-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.box__perguntas-titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 2em;
+    padding-right: 0.5em;
+}
+
+.box__perguntas-titulo-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--roxo);
+    padding: 1em;
+}
+
+.box__perguntas-mostrar {
+    background: var(--azul-claro);
+    padding: 1em;
+    display: none;
+    transition: 1s all;
+}
+
+.box__perguntas-texto {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.box__perguntas-link {
+    color: var(--preto);
+}
+
+ /* ============================= TABLET =========================== */
+
+@media screen and (min-width: 768px) {
+    .banner__box-informacoes {
+        background-image: url(../img/Banner-info-gerais-tablet.png);
+        height: 400px;
+    }
+
+    .informacoes-gerais__titulo {
+        padding: 2em;
+    }
+
+    .box__perguntas {
+        padding: 0 2em;
+    }
+
+    .box__perguntas-itens {
+        display: block;
+    }
+
+    .padding-bottom-tablet {
+        padding-bottom: 5em;
+    }
+}
+
+ /* ============================= DESKTOP =========================== */
+
+@media screen and (min-width: 1440px) {
+    .banner__box-informacoes {
+        background-image: url(../img/Banner-info-gerais-desktop.png);
+        height: 400px;
+    }
+
+    .informacoes-gerais__titulo {
+        padding: 2em;
+        font-size: 3em;
+    } 
+
+    .box__perguntas {
+        padding: 0 10em;
+    } 
+
+    .padding-bottom-tablet {
+        padding-bottom: 10em;
+    }
+}
+
+ /* ============================= DESKTOP + =========================== */
+
+@media screen and (min-width: 2560px) {
+
+    .banner__box-informacoes {
+        height: 500px;
+    }
+
+    .box__perguntas {
+        padding: 0 30em;
+    } 
+
+    .padding-bottom-tablet {
+        padding-bottom: 20em;
+    }
+}
