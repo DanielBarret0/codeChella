@@ -6,8 +6,9 @@ Esse é um desafio proposto pela Alura onde recebemos um layout no figma complet
 
 # Sobre o projeto
 
-CodeChella é um site de um evento muscial completamente responsivo construída durante a 6ª edição da **Alura Challenge Frontend**, evento organizado pela [Alura](https://www.alura.com.br/).
-A aplicação consiste em uma plataforma de conteudo sobre alguns eventos em uma serie de apresentações musicais.
+O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.
+
+Construído durante a 6ª edição da **Alura Challenge Frontend**, evento organizado pela [Alura](https://www.alura.com.br/).
 
 # Minha experiência
 
