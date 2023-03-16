@@ -2,13 +2,27 @@
 
 # Alura Challenge Frontend 6ª edição
 
-Esse é um desafio proposto pela Alura onde recebemos um layout no figma completo e temos o desafio em 4 semanas fazermos esse site por nossa conta e tem incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio e também os nossos instrutores que estão nos desafiando e auxiliando durante esse período.
+Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde recebemos um layout no figma completo e temos o desafio em 4 semanas fazermos esse site por nossa conta com incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio e também os nossos instrutores que estão nos desafiando e auxiliando durante esse período.
 
 # Sobre o projeto
 
 O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.
 
 Construído durante a 6ª edição da **Alura Challenge Frontend**, evento organizado pela [Alura](https://www.alura.com.br/).
+
+O desafio consiste em fazer uma página com essas características:
+
+- Uma página inicial que mostrará as atrações do festival;
+
+- Uma página para explicar a experiência do festival, mostrando os diversos palcos;
+
+- Uma página para demonstrar os setores disponíveis para compra de ingresso;
+
+- Uma página de perguntas frequentes;
+
+- Uma página para compra de ingressos através do preenchimento do formulário;
+
+- Uma página para mostrar o ingresso gerado.
 
 # Minha experiência
 
