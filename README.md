@@ -1,5 +1,4 @@
 # **CodeChella**
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielBarret0/codeChella/blob/main/LICENSE.md)
 
 # Alura Challenge Frontend 6ª edição
 
@@ -35,6 +34,8 @@ A aplicação consiste em uma plataforma de conteudo sobre alguns eventos em uma
 </div>
 
 # Autor
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielBarret0/codeChella/blob/main/LICENSE.md)
 
 José Daniel Aragão Barreto
 
