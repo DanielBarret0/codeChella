@@ -1,5 +1,5 @@
 # **CodeChella**
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielBarret0/adopet/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielBarret0/codeChella/blob/main/LICENSE.md)
 
 # Alura Challenge Frontend 6ª edição
 
