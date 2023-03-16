@@ -16,16 +16,16 @@ A aplicação consiste em uma plataforma de conteudo sobre alguns eventos em uma
 
 # Link do projeto
 
-[CodeChella]()
+[CodeChella](https://danielbarret0.github.io/codeChella/)
 
-## Layout mobile 
-![Mobile 1]()
+## Layout para Smartphone 
+![Smartphone]()
 
-## Layout Tablet
-![tablet 1]()
+## Layout para Tablet
+![Tablet]()
 
-## Layout Desktop
-![desktop 1](h)
+## Layout para Desktop
+![Desktop]()
 
 ## Linguagens usadas
 <div align='left'>
