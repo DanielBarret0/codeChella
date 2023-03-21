@@ -6,6 +6,15 @@
     height: 300px;
 }
 
+.bloco-setores {
+    transition: 1s all;
+    padding-bottom: 2rem;
+}
+
+.bloco-setores:hover {
+    transform: scale(1.1);
+}
+
 .mapa_imagem {
     display: flex;
     align-items: center;

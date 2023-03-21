@@ -8,7 +8,8 @@
 
     <title>Garanta seu ingresso</title>
     <link rel="icon" href="img/mini-logo.png">
-    <meta name="description" content="O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.">
+    <meta name="description"
+        content="O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -23,14 +24,14 @@
 <body>
     <nav class="nav-bar">
         <section class="nav-mobile">
-
             <a href="index.html">
                 <img src="img/Logo1 1.png" alt="Logotipo Code Chella">
             </a>
 
+
             <label for="check" class="bar">
-                <input id="check" type="checkbox"  onclick="clickMenu()">
-            
+                <input id="check" type="checkbox" onclick="clickMenu()">
+
                 <span class="top"></span>
                 <span class="middle"></span>
                 <span class="bottom"></span>
@@ -55,15 +56,16 @@
             </ul>
         </section>
 
+
+
         <section class="nav-tablet">
-
             <a href="index.html">
-                <img src="img/Logo1 1.png" alt="Logotipo Code Chella">
+                <img class="nav-tablet-and-desktop__image" src="img/Logo1 1.png" alt="Logotipo CodeChella">
             </a>
 
             <div class="lista">
                 <ul class="lista__nav">
-                    <li class="lista__nav-item">
+                    <li class="lista__nav-item ">
                         <a class="lista__nav-link" href="experiencia.html">A experiencia</a>
                     </li>
                     <li class="lista__nav-item">
@@ -72,7 +74,7 @@
                     <li class="lista__nav-item">
                         <a class="lista__nav-link" href="informacoes.html">Informações</a>
                     </li>
-                    <li class="lista__nav-item">
+                    <li class="lista__nav-item pagina-selecionada">
                         <a class="lista__nav-link" href="formulario.html">Ingresso</a>
                     </li>
                 </ul>
@@ -80,29 +82,6 @@
 
         </section>
 
-        <section class="nav-desktop">
-
-            <a href="index.html">
-                <img src="img/Logo1 1.png" alt="Logotipo Code Chella">
-            </a>
-
-            <div class="lista">
-                <ul class="lista__nav">
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="experiencia.html">A experiencia</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="mapa-setores.html">Mapa de Setores</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="informacoes.html">Informações</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="formulario.html">Ingresso</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
     </nav>
 
     <main>
@@ -110,7 +89,7 @@
             <h1 class="banner__titulo">Garanta seu Ingresso</h1>
         </section>
 
-        <div class="background">
+        <div class="fundo-gradiente">
 
             <section class="formulario__titulo">
                 <h2 class="formulario__titulo-item">Preencha o formulário a seguir:</h2>
@@ -124,7 +103,7 @@
                 <label for="email" class="formulario__label">Email:</label>
                 <input class="formulario__input" type="email" id="email" name="email" required>
 
-    
+
                 <div class="formulario__espacamento-desktop">
                     <div class="formulario__espacamento-desktop-div">
 
@@ -132,18 +111,17 @@
 
                         <select class="formulario__select" id="tipo" name="tipo-ingresso">
                             <option class="formulario__select-item" value="1">Tipo de ingresso</option>
-                            <option class="formulario__select-item" value="1">Tipo 1</option>
-                            <option class="formulario__select-item" value="2">Tipo 2</option>
-                            <option class="formulario__select-item" value="3">Tipo 3</option>
+                            <option class="formulario__select-item" value="2">Tipo 1</option>
+                            <option class="formulario__select-item" value="3">Tipo 2</option>
+                            <option class="formulario__select-item" value="4">Tipo 3</option>
                         </select>
 
-                        
                     </div>
 
                     <div class="formulario__espacamento-desktop-div">
 
-                        <label for="dtnasc" class="formulario__label">Data Nascimento:</label>
-                        <input class="formulario__input" type='date' id='dtnasc' name='dtnasc' required>
+                        <label for="dataNascimento" class="formulario__label">Data Nascimento:</label>
+                        <input class="formulario__input" type='date' id='dataNascimento' name='dataNascimento' required>
 
                     </div>
 
@@ -151,8 +129,9 @@
 
                 <div class="formulario__botao">
 
-                    <button class="formulario__botao-input" type="submit" value="Enviar"> Enviar
-                    <img class="formulario__botao-imagem" src="img/seta.svg" alt="Seta de enviar">
+                    <button class="formulario__botao-input" type="submit">Enviar
+                    <span class="formulario__botao-icone icon-arrow-thin-right"></span>
+                    <a href="ingresso-comprado.html"></a>
 
                 </div>
 
@@ -173,33 +152,33 @@
 
                 <ul class="social">
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-whatsapp.png" alt="Logotipo what's app">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-whatsapp rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-twitch.png" alt="Logotipo da Twitch">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-twitch rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-instagram.png" alt="Logotipo do instagram">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-instagram rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-twiter.png" alt="Logotipo do twitter">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-twitter rodape__icones"></span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <p class="rodape__texto">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+        <p class="rodape__texto">Desenvolvido por Alura. <br> Projeto fictício sem fins comerciais.</p>
     </footer>
 
 

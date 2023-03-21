@@ -1,0 +1,39 @@
+.container-erro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.texto__erro {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+/* ===================== TABLET ==================================*/
+
+@media screen and (min-width: 768px) {
+    .container-erro {
+        padding: 3rem 10rem 2rem 10rem;
+    }
+
+    .imagem__erro {
+        display: flex;
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+/* ===================== DESKTOP ==================================*/
+
+@media screen and (min-width: 1440px) {
+    .container-desktop {
+        padding: 3rem;
+        height: 75vh;
+    }
+}

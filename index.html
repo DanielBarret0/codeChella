@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeChella</title>
     <link rel="icon" href="img/mini-logo.png">
-    <meta name="description" content="O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.">
+    <meta name="description"
+        content="O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,6 +57,8 @@
             </ul>
         </section>
 
+
+
         <section class="nav-tablet">
             <img class="nav-tablet-and-desktop__image" src="img/Logo1 1.png" alt="Logotipo CodeChella">
 
@@ -77,27 +81,6 @@
 
         </section>
 
-        <section class="nav-desktop">
-
-            <img class="nav-tablet-and-desktop__image" src="img/Logo1 1.png" alt="Logotipo CodeChella">
-
-            <div class="lista">
-                <ul class="lista__nav">
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="experiencia.html">A experiencia</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="mapa-setores.html">Mapa de Setores</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="informacoes.html">Informações</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="formulario.html">Ingresso</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
     </nav>
 
     <main>
@@ -109,7 +92,7 @@
 
         </section>
 
-        <div class="background">
+        <div class="fundo-gradiente">
             <section class="evento">
 
                 <div class="evento__div-imagem">
@@ -139,7 +122,7 @@
             </section>
 
             <section class="lineUp">
-                <h2 class="titulo-fonte-secundaria-2">/Line-Up/</h2>
+                <h2 class="lineUp__titulo">/Line-Up/</h2>
 
                 <div class="botao-falso-tamanho">
                     <h3 class="botao-falso"> Sábado &lt;11/03&gt;
@@ -148,55 +131,47 @@
 
                 <div class="bandas">
                     <ul class="bandas__lista">
-                        <li class="bandas__item texto-1">System of a DOM</li>
-                        <li class="bandas__item texto-2">Python Maiden</li>
-                        <li class="bandas__item texto-2">Apollo Client 2001</li>
-                        <li class="bandas__item texto-2">Bon Java</li>
-                        <li class="bandas__item texto-2">NickCallbackh</li>
-                        <li class="bandas__item texto-3">Linkin Promises</li>
-                        <li class="bandas__item texto-3">Fullstack Fighters</li>
-                        <li class="bandas__item texto-3">Papa React</li>
-                        <li class="bandas__item texto-3">Angular in Chains</li>
-                        <li class="bandas__item texto-4">Agnostic Front-end</li>
-                        <li class="bandas__item texto-4">SlipkNode</li>
-                        <li class="bandas__item texto-4">Pink Flutter</li>
-                        <li class="bandas__item texto-4">Kiss</li>
-                    </ul>
-                </div>
-
-
-                <div class="bandas-tablet-and-desktop">
-
-                    <ul class="bandas__lista">
-
-                        <div class="bandas-tablet-and-desktop__flex">
+                        <div class="banda__titulo">
                             <li class="bandas__item texto-1">System of a DOM</li>
                         </div>
+                        <section class="banda__espaco-desktop">
+                            <div class="banda__linha-2 banda-espaco">
+                                <li class="bandas__item texto-2">Python Maiden</li>
+                                <li class="bandas__item texto-2">Apollo Client 2001</li>
+                            </div>
+    
+                            <div class="banda__linha3 banda-espaco">
+                                <li class="bandas__item texto-3">Bon Java</li>
+                                <li class="bandas__item texto-3">NickCallbackh</li>
+                            </div>
+                        </section>
 
-                        <div class="bandas-tablet-and-desktop__flex">
-                            <li class="bandas__item texto-2">Python Maiden</li>
-                            <li class="bandas__item texto-2">Apollo Client 2001</li>
-                            <li class="bandas__item texto-2">Bon Java</li>
-                            <li class="bandas__item texto-2">NickCallbackh</li>
-                        </div>
+                        <section class="banda__espaco-desktop">
+                            <div class="banda__linha-4 banda-espaco">
+                                <li class="bandas__item texto-4">Linkin Promises</li>
+                                <li class="bandas__item texto-4">Fullstack Fighters</li>
+                            </div>
+    
+                            <div class="banda__linha-5 banda-espaco">
+                                <li class="bandas__item texto-5">Papa React</li>
+                                <li class="bandas__item texto-5">Angular in Chains</li>
+                            </div>
+                        </section>
 
-                        <div class="bandas-tablet-and-desktop__flex">
-                            <li class="bandas__item texto-3">Linkin Promises</li>
-                            <li class="bandas__item texto-3">Fullstack Fighters</li>
-                            <li class="bandas__item texto-3">Papa React</li>
-                            <li class="bandas__item texto-3">Angular in Chains</li>
-                        </div>
-
-                        <div class="bandas-tablet-and-desktop__flex">
-                            <li class="bandas__item texto-4">Agnostic Front-end</li>
-                            <li class="bandas__item texto-4">SlipkNode</li>
-                            <li class="bandas__item texto-4">Pink Flutter</li>
-                            <li class="bandas__item texto-4">Kiss</li>
-                        </div>
-
+                        <section class="banda__espaco-desktop">
+                            <div class="banda__linha-6 banda-espaco">
+                                <li class="bandas__item texto-6">Agnostic Front-end</li>
+                                <li class="bandas__item texto-6">SlipkNode</li>
+                            </div>
+    
+                            <div class="banda__linha-7 banda-espaco">
+                                <li class="bandas__item texto-7">Pink Flutter</li>
+                                <li class="bandas__item texto-7">Kiss</li>
+                            </div>
+                        </section>
+                    
                     </ul>
                 </div>
-
 
                 <div class="botao-falso-tamanho">
                     <h3 class="botao-falso"> Domingo &lt;12/03&gt;
@@ -205,54 +180,44 @@
 
                 <div class="bandas">
                     <ul class="bandas__lista">
-                        <li class="bandas__item">Lana Del Ploy</li>
-                        <li class="bandas__item">Dua Lib</li>
-                        <li class="bandas__item">The Backnd</li>
-                        <li class="bandas__item">CSS Styles</li>
-                        <li class="bandas__item">ArrayAna Grande</li>
-                        <li class="bandas__item">DJ Query</li>
-                        <li class="bandas__item">Miley Cypress</li>
-                        <li class="bandas__item">The Bootstrap Boys</li>
-                        <li class="bandas__item">Json Derulo</li>
-                        <li class="bandas__item">CloudPlay</li>
-                        <li class="bandas__item">Dev Lovato</li>
-                        <li class="bandas__item">Kylie MiLOG</li>
-                        <li class="bandas__item">Jenkins Brothers</li>
-                        <li class="bandas__item">Rubycat Dolls</li>
-                    </ul>
-                </div>
-
-
-                <div class="bandas-tablet-and-desktop">
-
-                    <ul class="bandas__lista">
-
-                        <div class="bandas-tablet-and-desktop__flex">
+                        <div class="banda__titulo">
                             <li class="bandas__item texto-1">Lana Del Ploy</li>
                         </div>
+                        <section class="banda__espaco-desktop">
+                            <div class="banda__linha-2 banda-espaco">
+                                <li class="bandas__item texto-2">Dua Lib</li>
+                                <li class="bandas__item texto-2">The Backnd</li>
+                                <li class="bandas__item texto-2">CSS Styles</li>
+                            </div>
+    
+                            <div class="banda__linha3 banda-espaco">
+                                <li class="bandas__item texto-3">ArrayAna Grande</li>
+                                <li class="bandas__item texto-3">DJ Query</li>
+                            </div>
+                        </section>
 
-                        <div class="bandas-tablet-and-desktop__flex">
-                            <li class="bandas__item texto-2">Dua Lib</li>
-                            <li class="bandas__item texto-2">The Backnd</li>
-                            <li class="bandas__item texto-2">Bon Java</li>
-                            <li class="bandas__item texto-2">ArrayAna Grande</li>
-                        </div>
+                        <section class="banda__espaco-desktop">
+                            <div class="banda__linha-4 banda-espaco">
+                                <li class="bandas__item texto-4">Miley Cypress</li>
+                                <li class="bandas__item texto-4">The Bootstrap Boys</li>
+                            </div>
+    
+                            <div class="banda__linha-5 banda-espaco">
+                                <li class="bandas__item texto-5">Json Derulo</li>
+                                <li class="bandas__item texto-5">CloudPlay</li>
+                                <li class="bandas__item texto-5">Dev Lovato</li>
+                            </div>
+                        </section>
 
-                        <div class="bandas-tablet-and-desktop__flex">
-                            <li class="bandas__item texto-3">DJ Query</li>
-                            <li class="bandas__item texto-3">Miley Cypress</li>
-                            <li class="bandas__item texto-3">The Bootstrap Boys</li>
-                            <li class="bandas__item texto-3">Json Derulo</li>
-                        </div>
+                        <section class="banda__espaco-desktop">
+                            <div class="banda__linha-6 banda-espaco">
+                                <li class="bandas__item texto-7">Kylie MiLOG</li>
+                                <li class="bandas__item texto-7">Jenkins Brothers</li>
+                                <li class="bandas__item texto-7">Rubycat</li>
+                            </div>
 
-                        <div class="bandas-tablet-and-desktop__flex">
-                            <li class="bandas__item texto-4">CloudPlay</li>
-                            <li class="bandas__item texto-4">Dev Lovato</li>
-                            <li class="bandas__item texto-4">Kylie MiLOG</li>
-                            <li class="bandas__item texto-4">Jenkins Brothers</li>
-                            <li class="bandas__item texto-4">Rubycat Dolls</li>
-                        </div>
-
+                        </section>
+                    
                     </ul>
                 </div>
 
@@ -276,26 +241,26 @@
 
                 <ul class="social">
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-whatsapp.png" alt="Logotipo what's app">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-whatsapp rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-twitch.png" alt="Logotipo da Twitch">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-twitch rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-instagram.png" alt="Logotipo do instagram">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-instagram rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-twiter.png" alt="Logotipo do twitter">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-twitter rodape__icones"></span>
                         </a>
                     </li>
                 </ul>

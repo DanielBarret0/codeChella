@@ -13,47 +13,74 @@
     padding: 1em 2em;
 }
 
-.box__perguntas-itens {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
+.caixa__perguntas {
+    padding: 1rem;
 }
 
-.box__perguntas-titulo {
+.caixa__perguntas-titulo {
+    color: var(--branco);
     font-family: var(--fonte-principal);
     font-weight: 700;
-    font-size: 2em;
-    padding-right: 0.5em;
-}
-
-.box__perguntas-titulo-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--roxo);
-    padding: 1em;
-}
-
-.box__perguntas-mostrar {
-    background: var(--azul-claro);
-    padding: 1em;
-    display: none;
-    transition: 1s all;
+    font-size: 2rem;
 }
 
 .box__perguntas-texto {
-    font-family: var(--fonte-principal);
+    padding: 1rem;
+    background: var(--azul-claro);
+    transition: max-height 0.2s ease-out;
     color: var(--preto);
+    font-size: 1.2rem;
     font-weight: 500;
-    font-size: 1.25em;
-    line-height: 1.5em;
+    text-shadow: none;
+    line-height: 2rem;
 }
 
 .box__perguntas-link {
     color: var(--preto);
 }
+
+.accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 1rem;
+    padding-right: 1.4rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: var(--roxo);
+  }
+
+  .active, .accordion:hover {
+    background: var(--roxo);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    background: var(--azul-claro);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .caixa__pergunta-ultima {
+    padding-bottom: 5rem;
+  }
 
  /* ============================= TABLET =========================== */
 
@@ -67,17 +94,15 @@
         padding: 2em;
     }
 
-    .box__perguntas {
-        padding: 0 2em;
+    .caixa__perguntas {
+        padding: 0.5rem 4rem;
     }
 
-    .box__perguntas-itens {
-        display: block;
+    .caixa__pergunta-ultima {
+        padding-bottom: 5rem;
     }
 
-    .padding-bottom-tablet {
-        padding-bottom: 5em;
-    }
+    
 }
 
  /* ============================= DESKTOP =========================== */
@@ -93,13 +118,15 @@
         font-size: 3em;
     } 
 
-    .box__perguntas {
-        padding: 0 10em;
-    } 
-
-    .padding-bottom-tablet {
-        padding-bottom: 10em;
+    .caixa__perguntas {
+        padding: 0.5rem 10rem;
     }
+
+    .caixa__pergunta-ultima {
+        padding-bottom: 10rem;
+    }
+
+    
 }
 
  /* ============================= DESKTOP + =========================== */
@@ -110,11 +137,13 @@
         height: 500px;
     }
 
-    .box__perguntas {
-        padding: 0 30em;
-    } 
-
-    .padding-bottom-tablet {
-        padding-bottom: 20em;
+    .caixa__perguntas {
+        padding: 1rem 40rem;
     }
+
+    .caixa__pergunta-ultima {
+        padding-bottom: 15rem;
+    }
+
+    
 }

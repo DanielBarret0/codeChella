@@ -1,3 +1,4 @@
+/* ============= Botao menu hamburguer ===================== */
 function clickMenu() {
     if (itens.style.display == 'block') {
         itens.style.display = 'none'
@@ -6,13 +7,22 @@ function clickMenu() {
     }
 }
 
-function toggle(el) {
-    var display = document.getElementById(el).style.display;
-    if(display == "flex"){
-        document.getElementById(el).style.display = 'none';        
-    }                    
-    else{
-        document.getElementById(el).style.display = 'flex';
-    }
-} 
+
+/* ============= Menu sanfonado ===================== */
+
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
    

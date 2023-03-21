@@ -2,24 +2,12 @@
     width: 100%;
 }
 
-/* .evento__imagem {
+.evento__imagem {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     padding: 2em;
-} */
-
-.evento__div-imagem {
-    width: 90%;
-    margin: 0 auto;
-    padding: 1em 0;
-}
-
-.evento__imagem {
-    width: 100%;
-    object-fit: cover;
-    
 }
 
 .evento__botao_position {
@@ -102,7 +90,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 5em 5em 6em 5em;
+        padding: 5em 8em 6em 8em;
         width: auto;
     }
 
@@ -121,8 +109,8 @@
     .evento {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        padding: 10em 30em 6em 30em;
+        justify-content: center;
+        padding: 10em 35em 6em 35em;
         text-align: center;
     }
 

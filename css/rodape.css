@@ -24,6 +24,33 @@
     line-height: 1.2em;
 }
 
+.social__link {
+    text-decoration: none;
+}
+
+.rodape__icones {
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s all;
+    list-style: none;
+}
+
+.icon-whatsapp:hover {
+    color: #4bba57;
+}
+
+.icon-instagram:hover {
+    color: #FF0F7B;
+}
+
+.icon-twitch:hover {
+    color: #5f3c9d;
+}
+
+.icon-twitter:hover {
+    color: #419cd5;
+}
+
  /* ============================= TABLET =========================== */
 
 @media screen and (min-width: 768px) {

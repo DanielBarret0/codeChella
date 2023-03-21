@@ -1,3 +1,15 @@
+.pagina-selecionada {
+    line-height: 25px;
+    border-bottom: 2px solid var(--branco);
+}
+
+.bloco {
+    transition: 1s all;
+}
+
+.bloco:hover {
+    transform: scale(1.05);
+}
 
 .banner__box {
     background-image: url(../img/Banner\ -\ A\ Experiência.png);
@@ -13,6 +25,7 @@
     justify-content: center;
     margin: 0 auto;
     padding: 2em;
+    
 }
 
 .titulo-experiencia {
@@ -43,6 +56,10 @@
 @media screen and (min-width: 768px) {
     .banner__box {
         height: 400px;
+    }
+
+    .experiencia-tamanho-tablet {
+        padding-bottom: 3rem;
     }
 
     .experiencia__imagem {

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações</title>
     <link rel="icon" href="img/mini-logo.png">
-    <meta name="description" content="O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.">
+    <meta name="description"
+        content="O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,14 +23,14 @@
 <body>
     <nav class="nav-bar">
         <section class="nav-mobile">
-
             <a href="index.html">
                 <img src="img/Logo1 1.png" alt="Logotipo Code Chella">
             </a>
 
+
             <label for="check" class="bar">
-                <input id="check" type="checkbox"  onclick="clickMenu()">
-            
+                <input id="check" type="checkbox" onclick="clickMenu()">
+
                 <span class="top"></span>
                 <span class="middle"></span>
                 <span class="bottom"></span>
@@ -55,9 +56,8 @@
         </section>
 
         <section class="nav-tablet">
-
             <a href="index.html">
-                <img src="img/Logo1 1.png" alt="Logotipo Code Chella">
+                <img class="nav-tablet-and-desktop__image" src="img/Logo1 1.png" alt="Logotipo CodeChella">
             </a>
 
             <div class="lista">
@@ -68,7 +68,7 @@
                     <li class="lista__nav-item">
                         <a class="lista__nav-link" href="mapa-setores.html">Mapa de Setores</a>
                     </li>
-                    <li class="lista__nav-item">
+                    <li class="lista__nav-item pagina-selecionada">
                         <a class="lista__nav-link" href="informacoes.html">Informações</a>
                     </li>
                     <li class="lista__nav-item">
@@ -79,29 +79,6 @@
 
         </section>
 
-        <section class="nav-desktop">
-
-            <a href="index.html">
-                <img src="img/Logo1 1.png" alt="Logotipo Code Chella">
-            </a>
-
-            <div class="lista">
-                <ul class="lista__nav">
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="experiencia.html">A experiencia</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="mapa-setores.html">Mapa de Setores</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="informacoes.html">Informações</a>
-                    </li>
-                    <li class="lista__nav-item">
-                        <a class="lista__nav-link" href="formulario.html">Ingresso</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
     </nav>
 
     <main>
@@ -110,100 +87,65 @@
             <h1 class="banner__titulo">Informações Gerais</h1>
         </section>
 
-        <div class="background">
+        <div class="fundo-gradiente">
 
             <h2 class="informacoes-gerais__titulo">Perguntas frequentes:</h2>
 
-            <section class="box__perguntas">
 
-                <div class="box__perguntas-itens" onclick="toggle('conteudo')">
-                    <div class="box__perguntas-titulo-box">
-                        <h2 class="box__perguntas-titulo">Quais serão as atraçòes</h2>
-                        <img src="img/arrow_drop_down.png" alt="">
-                    </div>
-                    
+            <div class="caixa__perguntas">
 
-                    <div class="box__perguntas-mostrar" id="conteudo">
-                        <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="#">Confira o line-up em detalhes clicando neste link!</a>
-                        </p>
-                    </div>
-    
+                <button class="accordion caixa__perguntas-titulo">Quais serão as atrações?</button>
+
+                <div class="panel">
+
+                    <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="index.html"> Confira o line-up em detalhes clicando neste link!</a></p>
                 </div>
 
-            </section>
+            </div>
 
-            <section class="box__perguntas">
+            <div class="caixa__perguntas">
 
-                <div class="box__perguntas-itens" onclick="toggle('conteudo-2')">
-                    <div class="box__perguntas-titulo-box">
-                        <h2 class="box__perguntas-titulo">Qual é a classificação etária?</h2>
-                        <img src="img/arrow_drop_down.png" alt="">
-                    </div>
-                    
+                <button class="accordion caixa__perguntas-titulo">Qual é a classificação etária?</button>
 
-                    <div class="box__perguntas-mostrar" id="conteudo-2">
-                        <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="#">Confira o line-up em detalhes clicando neste link!</a>
-                        </p>
-                    </div>
-    
+                <div class="panel">
+
+                    <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="index.html"> Confira o line-up em detalhes clicando neste link!</a></p>
                 </div>
 
-            </section>
+            </div>
 
-            <section class="box__perguntas">
+            <div class="caixa__perguntas">
 
-                <div class="box__perguntas-itens" onclick="toggle('conteudo-3')">
-                    <div class="box__perguntas-titulo-box">
-                        <h2 class="box__perguntas-titulo">Quais são os setores disponíveis?</h2>
-                        <img src="img/arrow_drop_down.png" alt="">
-                    </div>
-                    
+                <button class="accordion caixa__perguntas-titulo">Quais são os setores disponíveis?</button>
 
-                    <div class="box__perguntas-mostrar" id="conteudo-3">
-                        <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="#">Confira o line-up em detalhes clicando neste link!</a>
-                        </p>
-                    </div>
-    
+                <div class="panel">
+
+                    <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="index.html"> Confira o line-up em detalhes clicando neste link!</a></p>
                 </div>
 
-            </section>
+            </div>
 
-            <section class="box__perguntas">
+            <div class="caixa__perguntas">
 
-                <div class="box__perguntas-itens" onclick="toggle('conteudo-4')">
-                    <div class="box__perguntas-titulo-box">
-                        <h2 class="box__perguntas-titulo">Quais são os itens proibidos?</h2>
-                        <img src="img/arrow_drop_down.png" alt="">
-                    </div>
-                    
+                <button class="accordion caixa__perguntas-titulo">Quais são os itens proibidos?</button>
 
-                    <div class="box__perguntas-mostrar" id="conteudo-4">
-                        <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="#">Confira o line-up em detalhes clicando neste link!</a>
-                        </p>
-                    </div>
-    
+                <div class="panel">
+
+                    <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="index.html"> Confira o line-up em detalhes clicando neste link!</a></p>
                 </div>
 
-            </section>
+            </div>
 
-            <section class="box__perguntas padding-bottom-tablet">
+            <div class="caixa__perguntas caixa__pergunta-ultima">
 
-                <div class="box__perguntas-itens" onclick="toggle('conteudo-5')">
-                    <div class="box__perguntas-titulo-box">
-                        <h2 class="box__perguntas-titulo">Quais são os itens proibidos?</h2>
-                        <img src="img/arrow_drop_down.png" alt="">
-                    </div>
-                    
+                <button class="accordion caixa__perguntas-titulo">Qual será local?</button>
 
-                    <div class="box__perguntas-mostrar" id="conteudo-5">
-                        <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="#">Confira o line-up em detalhes clicando neste link!</a>
-                        </p>
-                    </div>
-    
+                <div class="panel">
+
+                    <p class="box__perguntas-texto">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo (12/03) com bandas pop. <a class="box__perguntas-link" href="index.html"> Confira o line-up em detalhes clicando neste link!</a></p>
                 </div>
 
-            </section>
-        </div>
+            </div>
 
 
     </main>
@@ -217,36 +159,34 @@
 
                 <ul class="social">
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-whatsapp.png" alt="Logotipo what's app">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-whatsapp rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-twitch.png" alt="Logotipo da Twitch">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-twitch rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-instagram.png" alt="Logotipo do instagram">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-instagram rodape__icones"></span>
                         </a>
                     </li>
 
                     <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__imagem" src="img/social-twiter.png" alt="Logotipo do twitter">
+                        <a class="social__link" href="erro404.html">
+                            <span class="icon-twitter rodape__icones"></span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <p class="rodape__texto">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+        <p class="rodape__texto">Desenvolvido por Alura. <br> Projeto fictício sem fins comerciais.</p>
     </footer>
-
-
 
     <script src="main.js"></script>
 </body>
