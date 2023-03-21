@@ -1,10 +1,8 @@
-# **CodeChella**
-
 # Alura Challenge Frontend 6ª edição
 
 Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde recebemos um layout no figma completo e temos o desafio em 4 semanas fazermos esse site por nossa conta com incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio e também os nossos instrutores que estão nos desafiando e auxiliando durante esse período.
 
-# Sobre o projeto
+# Sobre o projeto CodeChella
 
 O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.
 
@@ -53,4 +51,4 @@ O desafio consiste em fazer uma página com essas características:
 
 José Daniel Aragão Barreto
 
-[LinkedIn](https://www.linkedin.com/in/daniel-barreto-1b763216a/)
+Acesse o meu [LinkedIn](https://www.linkedin.com/in/daniel-barreto-1b763216a/)
