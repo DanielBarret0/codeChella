@@ -24,8 +24,14 @@ O desafio consiste em fazer uma página com essas características:
 
 - Uma página para mostrar o ingresso gerado.
 
-# Minha experiência
+## Linguagens usadas
+<div align='left'>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
 
+# Minha experiência
 
 
 # Link do projeto
@@ -40,13 +46,6 @@ O desafio consiste em fazer uma página com essas características:
 
 ## Layout para Desktop
 ![Desktop]()
-
-## Linguagens usadas
-<div align='left'>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-</div>
 
 # Autor
 
