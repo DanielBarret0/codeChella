@@ -34,7 +34,7 @@ O desafio consiste em fazer uma página com essas características:
 
 # Link do projeto
 
-[CodeChella](https://danielbarret0.github.io/codeChella/)
+Acesse aqui a página do projeto [CodeChella](https://danielbarret0.github.io/codeChella/)
 
 ## Layout para Smartphone 
 ![Smartphone]()
