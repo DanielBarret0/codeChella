@@ -1,3 +1,18 @@
+# Nome do meu projeto
+
+Rápida descrição do objetivo de fazer esse projeto
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | CodeChella
+| :label: Tecnologias | JavaScript, HTML, CSS.
+| :rocket: URL         | 
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+
 # Alura Challenge Frontend 6ª edição
 
 Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde recebemos um layout no figma completo e temos o desafio em 4 semanas fazermos esse site por nossa conta com incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio e também os nossos instrutores que estão nos desafiando e auxiliando durante esse período.
