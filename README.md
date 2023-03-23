@@ -1,15 +1,23 @@
 # CodeChella
 
-| :placard: Vitrine.Dev | [Minha vitrine](https://cursos.alura.com.br/vitrinedev/danielbarreto)  |
+# Nome do meu projeto
+
+Rápida descrição do objetivo de fazer esse projeto
+
+| :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | CodeChella
-| :label: Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-| :rocket: URL         | [CodeChella](https://danielbarret0.github.io/codeChella/)
-| :fire: Desafio     | [Desafio](https://www.alura.com.br/challenges/front-end-6/semana-01-conheca-codechella?utm_source=ActiveCampaign&utm_medium=email&utm_content=%5BChallenge+Front-End%5D+Primeiro+desafio+liberado+%F0%9F%94%93&utm_campaign=%5BCHALLENGE%5D%28Front-end+6a+ed+%29+E-mail+avisando+libera%C3%A7%C3%A3o+da+aula+01++%2B+convite+live+codando+ao+vivo&vgo_ee=npauGZXM23MjvTJnNzYgvORYGrzm7gAYzytzCQBqAYM%3D)
+| :label: Tecnologias | JavaScript, HTML, CSS.
+| :rocket: URL         | 
+| :fire: Desafio     | 
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](#vitrinedev)
-
 
 # Alura Challenge Frontend 6ª edição
 
