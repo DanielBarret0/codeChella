@@ -1,4 +1,7 @@
-# CodeChella
+
+<div align="center">
+<img align="center" src="https://github.com/DanielBarret0/codeChella/blob/main/img/Logo1%201.png#vitrinedev">
+</div>
 
 # Nome do meu projeto
 
@@ -12,7 +15,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :fire: Desafio     | [Sobre o Challenge](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://github.com/DanielBarret0/codeChella/blob/main/img/Logo1%201.png#vitrinedev)
 
 
 
