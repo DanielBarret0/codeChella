@@ -12,7 +12,9 @@
 | :rocket: URL         | [CodeChella](https://codechella-challenge-6.bohr.io/)
 | :fire: Desafio     | [Sobre o Challenge](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](#vitrinedev)
+
+![](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/banner-projeto.png#vitrinedev)
+
 
 # Alura Challenge Frontend 6ª edição
 
