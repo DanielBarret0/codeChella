@@ -13,8 +13,9 @@
 | :fire: Desafio     | [Sobre o Challenge](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-![](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/banner-projeto.png#vitrinedev)
-
+<div align="center">
+<img src="https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/banner.png#vitrinedev">
+</div>
 
 # Alura Challenge Frontend 6ª edição
 
