@@ -52,13 +52,13 @@ O desafio consiste em fazer uma página com essas características:
 # 🤯 Minha experiência
 
 ## ⭐ Layout para Smartphone 
-![Smartphone]()
+![Smartphone](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-mobile.gif)
 
 ## ⭐ Layout para Tablet
 ![Tablet]()
 
 ## ⭐ Layout para Desktop
-![Desktop]()
+![Desktop](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-desktop%20(1).gif)
 
 # 🙋‍♂️ Autor
 
