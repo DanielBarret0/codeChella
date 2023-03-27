@@ -3,30 +3,31 @@
 <img align="center" src="https://github.com/DanielBarret0/codeChella/blob/main/img/Logo1%201.png">
 </div>
 
-# Sobre o projeto
+# 🗒️ Sobre o projeto
 
-| :placard: Vitrine.Dev |  [Minha Vitrine Dev](https://cursos.alura.com.br/vitrinedev/danielbarreto)   |
+| 🪧 Vitrine.Dev |  [Minha Vitrine Dev](https://cursos.alura.com.br/vitrinedev/danielbarreto)   |
 | -------------  | --- |
-| :sparkles: Nome        | CodeChella
-| :label: Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-| :rocket: URL         | [CodeChella](https://codechella-challenge-6.bohr.io/)
-| :fire: Desafio     | [Sobre o Challenge](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
+| ✨: Nome        | CodeChella
+| 🏷️ Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+| 🎇: Bibliotecas |  [IcoMoon](https://icomoon.io/), [StorySet](https://storyset.com/).
+| 🚀: URL         | [CodeChella](https://codechella-challenge-6.bohr.io/)
+| 🔥 Desafio     | [Sobre o Challenge](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-# Banner do VitrineDev
+# 🖼️ Banner do VitrineDev
 <div align="center">
 
 <img src="https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/banner.png#vitrinedev">
 </div>
 
-# Alura Challenge Frontend 6ª edição
+# 💪 Alura Challenge Frontend 6ª edição
 
 Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde recebemos um layout no figma completo e temos o desafio de fazer esse site por nossa conta em 4 semanas como tempo proposto, com incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio e também os nossos instrutores que estão nos desafiando e auxiliando durante esse período.
 
-# Projeto no Figma
+# 🎨 Projeto no Figma
 Acesse esse projeto aqui [CodeChellaFigma](https://www.figma.com/file/qPOKG4SBvOEV6oDk9YtI66/CodeChella-%7C-Challenge-I---Front-end-2023-(Copy)?t=H1MuZbeodBFfxbGM-6)
 
-# Sobre o projeto CodeChella
+# 📑 O projeto CodeChella
 
 O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.
 
@@ -46,18 +47,18 @@ O desafio consiste em fazer uma página com essas características:
 
 - Uma página para mostrar o ingresso gerado.
 
-# Minha experiência
+# 🤯 Minha experiência
 
-## Layout para Smartphone 
+## ⭐ Layout para Smartphone 
 ![Smartphone]()
 
-## Layout para Tablet
+## ⭐ Layout para Tablet
 ![Tablet]()
 
-## Layout para Desktop
+## ⭐ Layout para Desktop
 ![Desktop]()
 
-# Autor
+# 🙋‍♂️ Autor
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/DanielBarret0/codeChella/blob/main/LICENSE.md)
 
