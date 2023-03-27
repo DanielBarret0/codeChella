@@ -74,11 +74,11 @@
     justify-content: center;
     gap: 1rem;
     background: var(--roxo);
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 20px;
     box-shadow: 10px 10px 0px -5px rgba(0, 0, 0, 1);
     transition: 1s all;
-    margin: 2em auto;
+    margin: 1rem auto;
 }
 
 .formulario__botao-icone {
@@ -87,7 +87,6 @@
 
 .formulario__botao-input {
     border: none;
-    background: none;
     font-size: 2em;
     font-weight: 700;
     color: var(--branco);
@@ -103,9 +102,20 @@
     cursor: pointer;
 }
 
-.formulario__botao-imagem {
-    width: 30px;
-    height: 30px;
+.formulario__link-ingresso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: var(--roxo);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px -5px rgba(0, 0, 0, 1);
+    transition: 1s all;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
 }
 
 /* ============================= TABLET ============================================ */

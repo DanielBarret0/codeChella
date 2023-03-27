@@ -24,6 +24,17 @@
     line-height: 1.2em;
 }
 
+.rodape__link-pessoal {
+    text-decoration: none;
+    color: var(--branco);
+    text-transform: bold;
+    font-weight: 700;
+}
+
+.rodape__link-pessoal:hover {
+    text-decoration: underline;
+}
+
 .social__link {
     text-decoration: none;
 }

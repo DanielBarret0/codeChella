@@ -65,7 +65,7 @@
 
             <div class="lista">
                 <ul class="lista__nav">
-                    <li class="lista__nav-item ">
+                    <li class="lista__nav-item">
                         <a class="lista__nav-link" href="experiencia.html">A experiencia</a>
                     </li>
                     <li class="lista__nav-item">
@@ -85,17 +85,20 @@
     </nav>
 
     <main>
-        <section class="banner__box-formulario">
-            <h1 class="banner__titulo">Garanta seu Ingresso</h1>
-        </section>
+
 
         <div class="fundo-gradiente">
+
+            <section class="banner__box-formulario">
+                <h1 class="banner__titulo">Garanta seu Ingresso</h1>
+            </section>
 
             <section class="formulario__titulo">
                 <h2 class="formulario__titulo-item">Preencha o formulário a seguir:</h2>
             </section>
 
-            <form action="" class="formulario__info">
+            <form class="formulario__info">
+
 
                 <label for="nome" class="formulario__label">Nome:</label>
                 <input class="formulario__input" type="text" id="nome" name="nome" required>
@@ -103,39 +106,34 @@
                 <label for="email" class="formulario__label">Email:</label>
                 <input class="formulario__input" type="email" id="email" name="email" required>
 
-
                 <div class="formulario__espacamento-desktop">
                     <div class="formulario__espacamento-desktop-div">
 
                         <label for="tipo" class="formulario__label">Tipo de ingresso:</label>
 
                         <select class="formulario__select" id="tipo" name="tipo-ingresso">
-                            <option class="formulario__select-item" value="1">Tipo de ingresso</option>
-                            <option class="formulario__select-item" value="2">Tipo 1</option>
-                            <option class="formulario__select-item" value="3">Tipo 2</option>
-                            <option class="formulario__select-item" value="4">Tipo 3</option>
+                            <option class="formulario__select-item" value="1">Selecione seu ingresso</option>
+                            <option class="formulario__select-item" value="1">Pista Comum</option>
+                            <option class="formulario__select-item" value="2">Pista Premium</option>
+                            <option class="formulario__select-item" value="3">Cadeiras térreo</option>
+                            <option class="formulario__select-item" value="4">Cadeiras superiores</option>
+                            <option class="formulario__select-item" value="4">Rampas</option>
                         </select>
 
                     </div>
 
                     <div class="formulario__espacamento-desktop-div">
 
-                        <label for="dataNascimento" class="formulario__label">Data Nascimento:</label>
+                        <label for="dataNascimento" class="formulario__label">Data de nascimento:</label>
                         <input class="formulario__input" type='date' id='dataNascimento' name='dataNascimento' required>
 
                     </div>
 
                 </div>
 
-                <div class="formulario__botao">
-
-                    <button class="formulario__botao-input" type="submit">Enviar
-                    <span class="formulario__botao-icone icon-arrow-thin-right"></span>
-                    <a href="ingresso-comprado.html"></a>
-
-                </div>
-
-                <a class="evento__botao" href="ingresso-comprado.html">Ingresso comprado</a>
+                <input class="formulario__botao-input formulario__botao" type="submit" value="Enviar">
+                    
+                <a class="formulario__link-ingresso formulario__botao" href="ingresso-comprado.html">Seu ingresso!</a>
 
             </form>
 
@@ -153,7 +151,7 @@
                 <ul class="social">
                     <li class="social__item">
                         <a class="social__link" href="erro404.html">
-                            <span class="icon-whatsapp rodape__icones"></span>
+                            <span class="icon-whatsapp rodape__icones" aria-describedby="logo"></span>
                         </a>
                     </li>
 
@@ -178,7 +176,7 @@
             </div>
         </div>
 
-        <p class="rodape__texto">Desenvolvido por Alura. <br> Projeto fictício sem fins comerciais.</p>
+        <p class="rodape__texto">Desenvolvido por Alura. <br> Feito por <a class="rodape__link-pessoal" href="https://www.linkedin.com/in/daniel-barreto-1b763216a/">Daniel Barreto</a> <br> Projeto fictício sem fins comerciais.</p>
     </footer>
 
 

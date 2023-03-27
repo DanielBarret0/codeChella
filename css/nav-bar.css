@@ -28,9 +28,10 @@
     background: var(--roxo);
     border-radius: 10px;
     padding: 1em;
+    padding-top: 2rem;
 
     transition: all 1s;
-    box-shadow: 10px 10px 37px -4px rgba(0,0,0,0.37);;
+    box-shadow: 10px 10px 37px -4px rgba(0,0,0,0.37);
 }
 
 .nav-bar__item {
@@ -57,22 +58,31 @@
 .nav-bar__link {
     text-decoration: none;
     color: White;
+    transition: 0.5s all;
 }
 
 .lista__nav {
     transition: 1s all;
+    
 }
 
 .lista__nav-item {
     transition: 0.5s all;
+    position: relative;
 }
 
+
 .lista__nav-item:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .nav-tablet, .nav-desktop  {
     display: none;
+}
+
+.pagina-selecionada {
+    line-height: 25px;
+    border-bottom: 3px solid var(--branco);
 }
 
  /* ============================= TABLET =========================== */

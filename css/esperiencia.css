@@ -1,7 +1,3 @@
-.pagina-selecionada {
-    line-height: 25px;
-    border-bottom: 2px solid var(--branco);
-}
 
 .bloco {
     transition: 1s all;
@@ -25,7 +21,7 @@
     justify-content: center;
     margin: 0 auto;
     padding: 2em;
-    
+
 }
 
 .titulo-experiencia {
@@ -47,11 +43,12 @@
     padding: 1.25em;
 }
 
-.experiencia-imagem-tablet, .experiencia-tamanho-desktop {
+.experiencia-imagem-tablet,
+.experiencia-tamanho-desktop {
     display: none;
 }
 
- /* ============================= TABLET =========================== */
+/* ============================= TABLET =========================== */
 
 @media screen and (min-width: 768px) {
     .banner__box {
@@ -80,7 +77,7 @@
 
 }
 
- /* ============================= DESKTOP =========================== */
+/* ============================= DESKTOP =========================== */
 
 @media screen and (min-width: 1440px) {
 
@@ -99,6 +96,9 @@
 
     .banner__box {
         height: 400px;
+        background: url(../img/banner-a-experiencia-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .experiencia__imagem {
@@ -128,18 +128,21 @@
     }
 }
 
- /* ============================= DESKTOP + =========================== */
+/* ============================= DESKTOP + =========================== */
 
 @media screen and (min-width: 2560px) {
 
     .banner__box {
         height: 500px;
+        background: url(../img/banner-a-experiencia-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .bloco {
         padding: 0 30em;
     }
-    
+
     .banner__titulo {
         font-size: 6em;
     }
@@ -156,12 +159,11 @@
     .titulo-experiencia {
         font-size: 2.2em;
         text-align: left;
-        
+
     }
 
     .titulo-experiencia-desktop {
         text-align: right;
-        
+
     }
 }
-

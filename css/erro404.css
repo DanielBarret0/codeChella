@@ -6,11 +6,27 @@
     text-align: center;
     gap: 1rem;
     padding: 2rem 1rem 1rem 1rem;
+    
+    
+}
+
+.imagem__erro {
+    display: flex;
+    width: 390px;
+    margin: 0 auto;
 }
 
 .texto__erro {
     font-weight: 700;
     font-size: 2rem;
+}
+
+.container-desktop {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    margin: 0 auto;
+    height: 60vh;
 }
 
 
