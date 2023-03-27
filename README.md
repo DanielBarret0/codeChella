@@ -27,6 +27,8 @@ Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde
 # 🎨 Projeto no Figma
 Acesse esse projeto aqui [CodeChellaFigma](https://www.figma.com/file/qPOKG4SBvOEV6oDk9YtI66/CodeChella-%7C-Challenge-I---Front-end-2023-(Copy)?t=H1MuZbeodBFfxbGM-6)
 
+<img src="https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/figma-layout-1.gif">
+
 # 📑 O projeto CodeChella
 
 O CodeChella é um festival de música alternativa que acontece anualmente, é composto por gêneros diversos e visa promover uma experiência encantadora e inesquecível para o visitante, proporcionando uma integração multicultural e social.
