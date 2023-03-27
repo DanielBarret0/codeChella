@@ -13,7 +13,7 @@
 | :fire: Desafio     | [Sobre o Challenge](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-# Banner do projeto
+# Banner do VitrineDev
 <div align="center">
 
 <img src="https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/banner.png#vitrinedev">
@@ -22,6 +22,9 @@
 # Alura Challenge Frontend 6ª edição
 
 Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde recebemos um layout no figma completo e temos o desafio de fazer esse site por nossa conta em 4 semanas como tempo proposto, com incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio e também os nossos instrutores que estão nos desafiando e auxiliando durante esse período.
+
+# Projeto no Figma
+Acesse esse projeto aqui [CodeChellaFigma](https://www.figma.com/file/qPOKG4SBvOEV6oDk9YtI66/CodeChella-%7C-Challenge-I---Front-end-2023-(Copy)?t=H1MuZbeodBFfxbGM-6)
 
 # Sobre o projeto CodeChella
 
