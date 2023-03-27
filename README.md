@@ -11,7 +11,7 @@
 | 🏷️ Tecnologias | <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   | 🎇: Bibliotecas |  [IcoMoon](https://icomoon.io/), [StorySet](https://storyset.com/), [Gradiente Animado](https://www.gradient-animator.com/), [Scrollbar](https://www.cssportal.com/css-scrollbar-generator/).
 | 🚀: URL         | [CodeChella](https://codechella-challenge-6.bohr.io/)
-| 🔥 Desafio     | [Sobre o Challenge](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
+| 🔥 Desafio     | [Conheça o Challenge Alura](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
 # 🖼️ Banner do VitrineDev
