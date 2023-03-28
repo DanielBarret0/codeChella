@@ -60,13 +60,13 @@ Participar de vários grupos de estudo com meus colegas e compartilhar minhas so
 
 No geral, meu projeto do desafio foi uma grande oportunidade de aprendizado, onde eu tive a chance de aplicar meu conhecimento, aprender novas habilidades e técnicas, e colaborar com meus colegas. Aprender e aplicar essas habilidades é fundamental para aprimorar meu trabalho como desenvolvedor front-end e garantir que meus projetos sejam de alta qualidade e agradáveis para os usuários. Estou muito orgulhoso da minha dedicação e esforço em meu projeto de front end e continuarei a aprender e crescer na área.
 
-## ⭐ Layout para Smartphone 
+## ⭐ Layout para Smartphone (390px)
 ![Smartphone](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-mobile.gif)
 
-## ⭐ Layout para Tablet
+## ⭐ Layout para Tablet (768px)
 ![Tablet](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-tablet-1.gif)
 
-## ⭐ Layout para Desktop
+## ⭐ Layout para Desktop (1440px|2560px)
 ![Desktop](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-desktop%20(1).gif)
 
 # 🙋‍♂️ Autor
