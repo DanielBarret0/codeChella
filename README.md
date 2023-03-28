@@ -51,6 +51,13 @@ O desafio consiste em fazer uma página com essas características:
 
 # 🤯 Minha experiência
 
+No meu projeto de front end, eu aprendi uma variedade de habilidades e técnicas que são fundamentais para o desenvolvimento web. Eu utilizei várias bibliotecas, como IcoMoon, Storyset, Scroll Bar e Gradiente Animado, para adicionar elementos visuais interessantes e interativos ao meu projeto.
+Além disso, eu apliquei outras funções, como acordeom com JavaScript, menu hamburguer, formulários e landing pages, que são usadas em projetos web modernos. Cada uma dessas habilidades e técnicas que eu aprendi é importante para o desenvolvimento de uma experiência web de alta qualidade para os usuários.
+
+Participar de vários grupos de estudo com meus colegas e compartilhar minhas soluções, dicas e experiências foi um grande diferencial em meu processo de aprendizagem. A colaboração é fundamental para o sucesso em front end, pois permite que nos desenvolvedores aprendam uns com os outros, discutam desafios e encontrem soluções juntos.
+
+No geral, meu projeto do desafio foi uma grande oportunidade de aprendizado, onde eu tive a chance de aplicar meu conhecimento, aprender novas habilidades e técnicas, e colaborar com meus colegas. Aprender e aplicar essas habilidades é fundamental para aprimorar meu trabalho como desenvolvedor front-end e garantir que meus projetos sejam de alta qualidade e agradáveis para os usuários. Estou muito orgulhoso da minha dedicação e esforço em meu projeto de front end e continuarei a aprender e crescer na área.
+
 ## ⭐ Layout para Smartphone 
 ![Smartphone](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-mobile.gif)
 
