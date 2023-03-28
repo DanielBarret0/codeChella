@@ -1,4 +1,5 @@
 /* ============= Botao menu hamburguer ===================== */
+
 function clickMenu() {
     if (itens.style.display == 'block') {
         itens.style.display = 'none'
@@ -24,4 +25,25 @@ for (i = 0; i < acc.length; i++) {
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
+}
+
+/* ======================= Botao voltar ao topo da tela ======================== */
+
+// quando o usuário rolar a página em 20px, o botão será exibido
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("topBtn").style.display = "flex";
+  } else {
+    document.getElementById("topBtn").style.display = "none";
+  }
+}
+
+// quando o usuário clicar no botão, a página será rolada até o topo
+document.getElementById("topBtn").onclick = function() {topFunction()};
+
+function topFunction() {
+  document.body.scrollTop = 0; // para Safari
+  document.documentElement.scrollTop = 0; // para Chrome, Firefox, IE e Opera
 }
