@@ -12,6 +12,7 @@
   | 🎇: Bibliotecas |  [IcoMoon](https://icomoon.io/), [StorySet](https://storyset.com/), [Gradiente Animado](https://www.gradient-animator.com/), [Scrollbar](https://www.cssportal.com/css-scrollbar-generator/).
 | 🚀: URL         | [CodeChella](https://codechella-challenge-6.bohr.io/)
 | 🔥 Desafio     | [Conheça o Challenge Alura](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
+| :laughing: Extras feito     |  Botão voltar ao topo, animação do background, troca de algumas imagens, página de erro 404, ícones animados.
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
 # 🖼️ Banner do VitrineDev
