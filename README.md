@@ -65,10 +65,10 @@ No geral, meu projeto do desafio foi uma grande oportunidade de aprendizado, ond
 ![Smartphone](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-mobile.gif)
 
 ## ⭐ Layout para Tablet (768px)
-![Tablet](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-tablet-1.gif)
+![Tablet](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-tablet%20.gif)
 
 ## ⭐ Layout para Desktop (1440px | 2560px)
-![Desktop](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-desktop%20(1).gif)
+![Desktop](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-desktop.gif)
 
 # 🙋‍♂️ Autor
 
