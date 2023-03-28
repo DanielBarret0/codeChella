@@ -12,7 +12,7 @@
   | 🎇: Bibliotecas |  [IcoMoon](https://icomoon.io/), [StorySet](https://storyset.com/), [Gradiente Animado](https://www.gradient-animator.com/), [Scrollbar](https://www.cssportal.com/css-scrollbar-generator/).
 | 🚀: URL         | [CodeChella](https://codechella-challenge-6.bohr.io/)
 | 🔥 Desafio     | [Conheça o Challenge Alura](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
-| :laughing: Extras feito     |  Botão voltar ao topo, animação do background, troca de algumas imagens, página de erro 404, ícones animados.
+| :laughing: Extras feito     | **Botão voltar ao topo, animação do background, troca de algumas imagens, página de erro 404, ícones animados, Scroll Bar.**
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
 # 🖼️ Banner do VitrineDev
@@ -40,17 +40,17 @@ Construído durante a 6ª edição da **Alura Challenge Frontend**, evento organ
 
 O desafio consiste em fazer uma página com essas características:
 
-- Uma página inicial que mostrará as atrações do festival;
+- **Uma página inicial que mostrará as atrações do festival;**
 
-- Uma página para explicar a experiência do festival, mostrando os diversos palcos;
+- **Uma página para explicar a experiência do festival, mostrando os diversos palcos;**
 
-- Uma página para demonstrar os setores disponíveis para compra de ingresso;
+- **Uma página para demonstrar os setores disponíveis para compra de ingresso;**
 
-- Uma página de perguntas frequentes;
+- **Uma página de perguntas frequentes;**
 
-- Uma página para compra de ingressos através do preenchimento do formulário;
+- **Uma página para compra de ingressos através do preenchimento do formulário;**
 
-- Uma página para mostrar o ingresso gerado.
+- **Uma página para mostrar o ingresso gerado.**
 
 # 🤯 Minha experiência
 
