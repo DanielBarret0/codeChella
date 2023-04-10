@@ -13,7 +13,7 @@
 | 🚀: URL         | [CodeChella](https://codechella-challenge-6.bohr.io/)
 | 🔥 Desafio     | [Conheça o Challenge Alura](https://www.alura.com.br/challenges/front-end-6?host=https://cursos.alura.com.br)
 | :laughing: Extras feito     | **Botão voltar ao topo, animação do background, troca de algumas imagens, página de erro 404, ícones animados, Scroll Bar.**
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
+| :page_with_curl: Licença         | [<img src="https://img.shields.io/badge/LICENSE-MIT-green"/>](https://choosealicense.com/licenses/mit/) 
 
 # 🖼️ Banner do VitrineDev
 <div align="center">
