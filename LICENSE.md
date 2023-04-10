@@ -1,4 +1,29 @@
-MIT License
+## Português Brasileiro | PT-BR
+
+**Licença MIT**
+
+Direitos Autorais (c) 2023 José Daniel Aragão Barreto
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
+deste software e arquivos de documentação associados (o "Software"), para lidar com
+no Software sem restrição, incluindo, sem limitação, os direitos
+para usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender
+cópias do Software e para permitir que as pessoas a quem o Software é
+Preparados para o efeito, sob reserva das seguintes condições:
+O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos em todos os
+cópias ou partes substanciais do Software.
+
+O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
+IMPLÍCITO, INCLUINDO, MAS NÃO LIMITADO A, GARANTIAS DE COMERCIALIZAÇÃO,
+ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUMA CIRCUNSTÂNCIA O
+AUTORES OU DETENTORES DE DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER RECLAMAÇÃO, DANOS OU OUTROS
+RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, ATO ILÍCITO OU DE OUTRA FORMA, DECORRENTE DE,
+FORA DE OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO
+SOFTWARE.
+
+## English | EN
+
+**Licença MIT**
 
 Copyright (c) 2023 José Daniel Aragão Barreto
 
