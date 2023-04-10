@@ -15,12 +15,6 @@
 | :laughing: Extras feito     | **Botão voltar ao topo, animação do background, troca de algumas imagens, página de erro 404, ícones animados, Scroll Bar.**
 | :page_with_curl: Licença         | [<img src="https://img.shields.io/badge/LICENSE-MIT-green"/>](https://choosealicense.com/licenses/mit/) 
 
-# 🖼️ Banner do VitrineDev
-<div align="center">
-
-<img src="https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/banner.png#vitrinedev">
-</div>
-
 # 💪 Alura Challenge Frontend 6ª edição
 
 Esse é um desafio proposto por Alura maior escola de tecnologia do Brasil, onde recebemos um layout no figma completo e temos o desafio de fazer esse site por nossa conta em 4 semanas como tempo proposto, com incentivo de usarmos a comunidade do Discord como apoio são esses nossos colegas do Desafio e também os nossos instrutores que estão nos desafiando e auxiliando durante esse período.
@@ -69,6 +63,11 @@ No geral, meu projeto do desafio foi uma grande oportunidade de aprendizado, ond
 
 ## ⭐ Layout para Desktop (1440px | 2560px)
 ![Desktop](https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-desktop.gif)
+
+# 🖼️ Banner do VitrineDev
+<div align="center">
+<img src="https://github.com/DanielBarret0/codeChella/blob/main/gif-banner/codechella-desktop.gif#vitrinedev">
+</div>
 
 # 🙋‍♂️ Autor
 
